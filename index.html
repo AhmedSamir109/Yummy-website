@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="media/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+                              <!-- loading page  -->
+
+    <div class="loadingPage d-none">
+        <span class="loader"></span>
+
+    </div>
+    
+    <!------------------------ end of loading page -------------------->
+
+
+                                <!-- sideBar  -->
+
+    <aside class="sideBar d-flex">
+
+        <div class="navTaps bg-black d-flex flex-column justify-content-between ">
+            <ul class="list-unstyled text-white py-4 px-4">
+                <li id="navSearch">Search</li>
+                <li id="navCategory">Categories</li>
+                <li id="navArea">Area</li>
+                <li id="navIngredients">Ingredients</li>
+                <li id="navContact">Contact Us</li>
+            </ul>
+
+            <div class="text-white p-3">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+
+                <p>Copyright Â© 2024 All Rights
+                    <br>
+                    Reserved.</p>
+
+            </div>
+        </div>
+
+        <div class="sideBarIcons d-flex flex-column justify-content-between align-items-center bg-white px-1">
+            
+            <img src="media/logo.png" alt="Yummy" class="mt-4 logo">
+
+            <i class="fa-solid fa-bars  fa-2x " id="close-openBtn"></i>
+            <!-- <i class="fa-solid fa-x fa-2x  " id="openBtn"></i> -->
+
+            <div class="d-flex flex-column my-4 ">
+
+                <i class="fa-solid fa-globe "></i>
+                <i class="fa-solid fa-share-nodes mt-1 "></i>
+
+            </div>
+            
+        </div>
+    </aside>
+
+     <!------------------------- end of sideBar ---------------------->
+
+    <div class="container" id="searchBox">
+        
+
+    </div>
+
+     <div class="container-fluid  text-white">
+        <div class="container " >
+
+            <div class="row py-5" id="displayContainer">
+                
+            </div>
+
+        </div>
+     </div>
+ 
+
+
+     <div class="container">
+        <div class="row py-5 g-4 " id="rowData">
+        </div>
+    </div>
+
+
+
+    <script src="Js/jquery-3.7.1.min.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+</html>
